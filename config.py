@@ -18,8 +18,8 @@ GROQ_WHISPER_MODEL = getenv("GROQ_WHISPER_MODEL", "whisper-large-v3-turbo")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 
 # Bot and owner info
-OWNER_USERNAME = getenv("")
-BOT_USERNAME = getenv("")
+OWNER_USERNAME = getenv("Anxhxd")
+BOT_USERNAME = getenv("RiyaxMusic_Bot")
 BOT_NAME = getenv("BOT_NAME", "Riya")
 ASSUSERNAME = getenv("ASSUSERNAME", "RiyaAassistant")
 MUST_JOIN = getenv("MUST_JOIN", "AvikaUpdates")
@@ -30,9 +30,9 @@ MONGO_DB_URI = getenv("mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?r
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("-5221944049"))
-OWNER_ID = int(getenv("OWNER_ID = 8567344129"))
-POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-5093511622"))
+LOGGER_ID = -5221944049
+OWNER_ID = 8567344129
+POST_CHANNEL_ID = -5093511622
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
