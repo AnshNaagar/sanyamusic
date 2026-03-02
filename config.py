@@ -26,7 +26,7 @@ MUST_JOIN = getenv("MUST_JOIN", "AvikaUpdates")
 BASE_URL = "https://api.waifu.pics"
 
 # MongoDB
-MONGO_DB_URI = getenv("mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("mongodb+srv://userbot:userbot@cluster0.iweqz.mongodb.net/test?retryWrites=true&w=majority")
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
