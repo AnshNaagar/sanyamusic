@@ -50,7 +50,7 @@ Features<p>
 𝑆𝑡𝑎𝑟𝑡 𝑆𝑎𝑛𝑦𝑎 𝐵𝑜𝑡 𝑡𝑜 𝑠𝑒𝑒 𝑎𝑙𝑙 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠 𝑜𝑟 𝑠𝑒𝑒 commands.txt 𝑓𝑖𝑙𝑒
 </div>
 
- [@𝑆𝑎𝑛𝑦𝑎](https://t.me/SanyaxMusicBot) & [commands.txt](https://github.com/urstark/sanyamusic/blob/main/commands.txt)
+ [@𝑆𝑎𝑛𝑦𝑎](https://t.me/SanyaxMusicBot) & [commands.txt](https://github.com/AnshNaagar/sanyamusic/blob/main/commands.txt)
 
 :⧽ Channel Support
 Bot also Supported with Channels. Just add bot and assistant to the Channel as Admin. </details>
@@ -82,7 +82,7 @@ Press the below button to Fast deploy on Heroku/Raiwlay
 Either you could locally host or deploy on [Heroku](https://heroku.com)
 ### 💜 Heroku
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/urSTARK/Sanyamusic"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/AnshNaagar/sanyamusic"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. 
 </details>
