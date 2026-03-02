@@ -7,9 +7,9 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = "29448785"  # int me rakhna, quotes mat dalna
+API_HASH = "599574f6aff0a09ebb76305b58e7e9c2"
+BOT_TOKEN = "8603126068:AAEnp6VvEBXloGk4dH9ZH9IXpesd8MxkM0k"
 GROQ_API_KEY = getenv("GROQ_API_KEY", None)
 GROQ_MODEL = getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 GROQ_FALLBACK_MODEL = getenv("GROQ_FALLBACK_MODEL", "llama-3.1-8b-instant")
@@ -18,21 +18,21 @@ GROQ_WHISPER_MODEL = getenv("GROQ_WHISPER_MODEL", "whisper-large-v3-turbo")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
-BOT_NAME = getenv("BOT_NAME", "Sanya")
-ASSUSERNAME = getenv("ASSUSERNAME", "SANYAassistant")
-MUST_JOIN = getenv("MUST_JOIN", "urstarkz")
+OWNER_USERNAME = getenv("")
+BOT_USERNAME = getenv("")
+BOT_NAME = getenv("BOT_NAME", "Riya")
+ASSUSERNAME = getenv("ASSUSERNAME", "RiyaAassistant")
+MUST_JOIN = getenv("MUST_JOIN", "AvikaUpdates")
 BASE_URL = "https://api.waifu.pics"
 
 # MongoDB
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID"))
-OWNER_ID = int(getenv("OWNER_ID"))
-POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-1003192209705"))
+LOGGER_ID = int(getenv("-5221944049"))
+OWNER_ID = int(getenv("OWNER_ID = 8567344129"))
+POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-5093511622"))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -40,9 +40,9 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/urstark/sanyamusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnshNaagar/sanyamusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Support
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LuxeKernel")
@@ -71,7 +71,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Session strings
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = = "BQH4WzEAcXgaWUdhqUCfKzMojaxRNDA3umULPd_cJ_0bl_XYGiYG-6AmQ3QKQRZPtPwZYmqAHAR2WL_Umg-a_XMwT7TwcGPvTLOlffW4zE3utGBlCjiLURe_a-e_7pnLY6jXsBFe3jR9TQj1K7aTurhVypk_q0f0SBB_Wy9mf0ORy12NVlRc55UMuswRUt089Phz9ULFRwX2HWVv_MiDK3jjSvh4Xw5cdmygfonOANEACm64bTrdqy8pGmGHgyul0VkdPGDUhS9ym9YepFP0TovkjhjIZuZe7IXR_7yih7C0eoa82_6ZA1oouBRujtc4p9XtQnxXBThip1cPLuvpW01HwEWFTAAAAAH30k4rAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
